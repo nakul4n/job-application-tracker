@@ -38,7 +38,7 @@ The primary user is an individual job seeker managing a private job search.
 
 ## Non-goals
 
-Automated scraping, browser extensions, outbound email, calendar integrations, AI scoring, document parsing, recruiter discovery, public sharing, teams, employer accounts, native apps, and billing are not part of the MVP.
+Automated scraping, browser extensions, outbound email, calendar integrations, automated scoring, document parsing, recruiter discovery, public sharing, teams, employer accounts, native apps, and billing are not part of the MVP.
 
 ## Primary journeys
 

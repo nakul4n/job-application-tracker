@@ -14,7 +14,7 @@ PostgreSQL is accessed through Prisma. Prisma was selected over Drizzle because 
 
 ## Data access and validation
 
-`lib/data` contains authenticated, ownership-scoped reads. `lib/validations` contains reusable Zod schemas. Mutations live in domain-specific Server Action modules and perform authentication, validation, ownership checks, revalidation, and redirects.
+Server Components perform private reads and use shared ownership predicates from `lib/ownership`. `lib/validations` contains reusable Zod schemas. Mutations live in domain-specific Server Action modules and perform authentication, validation, ownership checks, revalidation, and redirects.
 
 ## Caching
 
